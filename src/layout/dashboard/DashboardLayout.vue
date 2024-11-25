@@ -37,11 +37,11 @@
           :name="$t('sidebar.typography')"
           icon="tim-icons icon-align-center"
         />
-        <sidebar-link
+        <!-- <sidebar-link
           to="/dashboard?enableRTL=true"
           :name="$t('sidebar.rtlSupport')"
           icon="tim-icons icon-world"
-        />
+        /> -->
       </template>
     </side-bar>
     <div class="main-panel">

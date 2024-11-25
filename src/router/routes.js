@@ -16,6 +16,7 @@ const Typography = () =>
   import(/* webpackChunkName: "common" */ "@/pages/Typography.vue");
 const TableList = () =>
   import(/* webpackChunkName: "common" */ "@/pages/TableList.vue");
+const Test = () => import('@/pages/Test.vue')
 
 const routes = [
   {
@@ -58,6 +59,11 @@ const routes = [
         name: "table-list",
         component: TableList,
       },
+      {
+        path: 'test',
+        name: 'table-list',
+        component: Test
+      }
     ],
   },
   { path: "*", component: NotFound },
